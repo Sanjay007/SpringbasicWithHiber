@@ -35,7 +35,7 @@ public class LoginController {
     @RequestMapping(value = { "/", "/home" })
     public String getUserDefault() { 
     	
-    	final User myUser = new User();
+    	/*final User myUser = new User();
     myUser.setUsername("Dolls");
     myUser.setPassword(encoder.encode("123"));
     myUser.setEnabled(true);
@@ -43,7 +43,7 @@ public class LoginController {
     tx = session.getTransaction();
     session.beginTransaction();
     session.persist(myUser);
-    tx.commit();
+    tx.commit();*/
         return "home";
     }
 

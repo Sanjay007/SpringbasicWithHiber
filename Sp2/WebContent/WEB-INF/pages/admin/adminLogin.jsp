@@ -42,12 +42,6 @@
 		<!-- Content -->
 		<div id="content" class="colM">
 
-
-
-
-
-
-
 			<div id="content-main">
 
 
